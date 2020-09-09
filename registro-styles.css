@@ -15,7 +15,7 @@ body {
     margin-top: 10px;
     margin-left: 10px;
 }
-.login {
+.registro {
     background: linear-gradient(#323330, #F0DB4F);
     display: flex;
     align-content: center;
@@ -23,7 +23,7 @@ body {
     padding: 0px 30px;
     min-height: calc(100vh - 200px);
 }
-.login__container {
+.registro__container {
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid white;
     border-radius: 40px;
@@ -35,54 +35,28 @@ body {
     justify-content: space-around;
     flex-direction: column;
 }
-.login__container--form {
+.registro__container--form {
     display: flex;
     flex-direction: column;
 }
-.login__container--form label {
-    font-size: 14px;
-}
-.login__container--remember-me {
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.login__container--remember-me a {
-    color: white;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-.login__container--remember-me a:hover {
-    text-decoration: underline;
-}
-
-.login__container--social-media > div {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.login__container--social-media > div > img {
-    width: 30px;
-    margin-right: 10px;
-}
-
-.login__container--register {
+.registro__container--form label {
     font-size: 14px;
 }
 
-.login__container--register a {
+
+.registro__container--login {
+    font-size: 14px;
+    align-self: center;
+}
+
+.registro__container--login a {
     color: white;
     font-weight: bold;
     font-size: 16px;
     text-decoration: none;
 }
 
-.login__container--register a:hover {
+.registro__container--login a:hover {
     text-decoration: underline;
 }
 
